@@ -1,0 +1,45 @@
+{
+  "name": "angular-app",
+  "version": "1.0.0",
+  "description": "Basic application for learning this amazing framework",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\"",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmillanfdez/angular-app.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript"
+  ],
+  "author": "Liander Millan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmillanfdez/angular-app/issues"
+  },
+  "homepage": "https://github.com/lmillanfdez/angular-app#readme",
+  "dependencies": {
+    "@angular/common": "^4.3.3",
+    "@angular/compiler": "^4.3.3",
+    "@angular/core": "^4.3.3",
+    "@angular/http": "^4.3.3",
+    "@angular/platform-browser": "^4.3.3",
+    "@angular/platform-browser-dynamic": "^4.3.3",
+    "@angular/router": "^4.3.3",
+    "@angular/router-deprecated": "^2.0.0-rc.2",
+    "bootstrap": "^3.3.7",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.2",
+    "systemjs": "^0.20.17",
+    "zone.js": "^0.8.16"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.19",
+    "concurrently": "^3.5.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.4.2"
+  }
+}
